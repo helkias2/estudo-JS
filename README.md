@@ -2,9 +2,9 @@
 Estudando Reduce Js 
 <h1>A função reducer é alimentada por quatro parâmetros:<h1>
 <br>
-Acumulador (acc)
-Valor Atual (cur)
-Index Atual (idx)
+Acumulador (acc)<br>
+Valor Atual (cur)<br>
+Index Atual (idx)<br>
 Array original (src)
 <br>
 
@@ -17,8 +17,8 @@ Parâmetros<br><br>
 <h3> callback </h3>
 <br>
 
-Função que é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado); recebe quatro argumentos:
-acumulador<br>
+Função que é executada em cada valor no array (exceto no primeiro, se nenhum valorInicial for passado);<br>
+recebe quatro argumentos: acumulador<br>
 O valor retornado na última invocação do callback, ou o argumento valorInicial, se fornecido (exemplo abaixo).
 valorAtual<br>
 O elemento atual que está sendo processado no array.
