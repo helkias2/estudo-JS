@@ -1,0 +1,157 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> Aula 4 - Eztrutura de Repeticao</title>
+        <style></style>
+    </head>
+    <body>
+        <div id=""> 
+            <form id="formulario" method="POST" action="">
+                <label> Nome: </label>
+                <input type="text" id="nome" name="" size="15"> <br>
+                <label> Senha:</label>
+                <input type="password" name="pass" id="pass" size="15"><br><br>
+                <fieldset>
+                    <label> Masculino:</label>
+                    <input type="radio" name="sexo" id="sx1" value="M">
+                    <label> Feminino: </label>
+                    <input type="radio" name="sexo" id="sx2" value="F">
+                </fieldset><br>
+                <fieldset>
+                    <label> Cidade: </label>
+                    <select name="cidade id="cidade"> 
+                        <option value="SP"> Sao Paulo</option>
+                        <option value="RJ"> Rio de  </option>
+                        <option value="BA"> BAHIA</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    Filmes Favoritos: <br><br>
+                    <label>Filmes de Terro: </label>
+                    <input name='' type="checkbox" id="" value="" /> <br>
+                   
+                    <label>Filmes de Acao </label>
+                    <input name='' type="checkbox" id="" value="" /> <br>
+
+                    <label>Filmes de Comedia </label>
+                    <input name='' type="checkbox" id="" value="" /> <br>
+
+                    <label>Filmes de Drama </label>
+                    <input name='' type="checkbox" id="" value="" />
+                </fieldset>
+                <textarea row="20" cols="30"> </textarea><br>
+               
+                <input type="submit" id="botao" value="Entrar"> 
+            </form>
+        </div>
+        <br><br>
+        <!-- <div>
+            <textarea id="box1" row="5" cols="30"></textarea> 
+            <textarea id="box2" row="5" cols="30"></textarea> 
+        </div> -->
+        <script>
+
+            // 1 - crair um formulario
+            // 2 - criar entrada de dados
+            // 3 - pegar os dados de login  e senha do formulario
+            // 4 - trata dados login e senha do formulario
+            // 5 - criar uma validacao 
+            // 6 - mostra dados na tela 
+
+            // function validaCampos(){
+            //     if(document.querySelector("#nome").value == "" || document.querySelector('#pass').value == ""){
+            //         alert("Preencha os dados");
+            //         return false;
+            //     }
+            //     return true;
+            // }
+
+            // window.onload = function(){
+            //     document.querySelector("#formulario").addEventListener('submit', function(){
+            //         if(validaCampos() == true){
+            //             alert("Valor esta correto")
+            //         }
+            //         return validaCampos();
+            //     }, false)
+            // }
+
+            // window.onload = function(){
+            //     nm  = document.querySelector('#nome');
+            //     ps = document.querySelector('#pass');
+            //     btn = document.querySelector('#botao');
+                
+            //     btn.addEventListener('click', function(){
+            //         console.log(nm.value +' , '+ ps.value)
+            //         validacao(nm.value,ps.value);
+            //     });   
+            // }
+
+            // function validacao(nm, ps){
+            //     if(nm != '' && ps !=''){
+            //         alert("Deu certo!");
+            //     }else{
+            //         alert('Problemas');
+            //         return false;
+            //     }
+            // }
+        // window.onload = function(){
+        //     var element = document.body;
+        //         element.onkeydown = trataEvento1;
+        //         console.log(element.onkeydown);
+        //         element.onkeyup = trataEvento1;
+        //         element.onkeypress = trataEvento2;
+
+
+        //     console.log(element);
+        // }
+
+        // function trataEvento1(event){
+        //     document.querySelector('#box1').innerHTML = "keyCode<br>"+event.keyCode;
+        // }
+        // function trataEvento2(){
+
+        // }
+
+            // window = e toda pagina do navegado 
+            // window.onload = pode ser adicionado evento de para a janela no navegador
+            // window.onload = function(){} = vai receber uma funcao que vai acionar uma acao
+
+            // window.onload = function(){
+            //     let btn = document.getElementById('botao');
+            //     btn.onclick = function(){
+            //         alert("Oi");
+            //     } 
+            // }
+
+            // window.onload = function(){
+                // let btn = document.getElementById('botao');
+                // minha_funcao = function(){
+                //     let vl1 = document.getElementById('valor1').value;
+                //     console.log(vl1);
+                //     alert(vl1);
+                // }
+                
+                // btn.addEventListener('click', function(){
+                //     obj();
+                // })
+
+                
+                // function msn(){
+                //     let vl1 = document.getElementById('valor1').value;
+                //     console.log(vl1);
+                //     alert(vl1);
+                // }
+
+                // function obj(){
+                //     let vl1 = document.getElementById('valor1').value;
+                //     var ob =
+                //     {
+                //         "nome": vl1
+                //     }
+                //     alert(ob.nome);
+                //}
+
+            // }
+        </script>
+    </body>
+</html>
